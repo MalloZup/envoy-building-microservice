@@ -33,10 +33,8 @@ After envoy is up and running, run on a seperate terminal
 
 http://127.0.0.1:10000/
 
+When acessing that url, we configured envoy.yaml to point to our golang microservice, so JSON data will printed in your browser.
 
-This will point to our json of microservice.
-
-We configured it on the configuration file of envoy
 
 ## Going further:
 
