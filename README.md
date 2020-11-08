@@ -2,11 +2,12 @@
 
 # Rationale:
 
-This mini projects show how to build microservice with golang and envoy.
+This project show **concretely** to build microservice with golang and envoy.
 
-The architecture is that envoy will manage all the route traffic, and you can build all the application (microservices) which do the API endpoints.
+The architecture is that envoy will manage all the route traffic, and you can build all the application (microservices) and API endopoints which are managed by envoy.
 
-In the example, the service just print some json, but you can modify it with some valid backend code.
+In the example, the golang micro service just print some json, but you can modify it with some valid backend code.
+
 
 # HOWTO:
 
