@@ -11,7 +11,7 @@ In the example, the golang micro service just print some json, but you can modif
 
 # HOWTO:
 
-## Build image of envoy
+## 1) Build image of envoy
 
 `docker build -t envoy:v1 .`
 
@@ -22,11 +22,14 @@ Run with:
 After this envoy should up and running.
 
 
-# Run the microservice
+### 2) Run the microservice
+
+After envoy is up and running, run on a seperate terminal
 
 ` go run service_a.go `
 
-# Acess the microservice (centralized) via envoy
+
+### 3) Acess the microservice (centralized) via envoy
 
 http://127.0.0.1:10000/
 
@@ -34,3 +37,9 @@ http://127.0.0.1:10000/
 This will point to our json of microservice.
 
 We configured it on the configuration file of envoy
+
+## Going further:
+
+This basic example can serve you as quick example how to play with envoy and building more complex things ( https/authentification more services etc).
+
+
