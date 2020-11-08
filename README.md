@@ -17,7 +17,7 @@ In the example, the golang micro service just print some json, but you can modif
 
 Run with:
 
-docker run --rm --net host --name envoy  envoy:v1 
+`docker run --rm --net host --name envoy  envoy:v1 `
 
 After this envoy should up and running.
 
